@@ -1,0 +1,320 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Regression/regression/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+11 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/CrossValidation.class
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/OrdinaryLeastSquares$$anonfun$columnOnes$1.class
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/OrdinaryLeastSquares.class
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/WLimNotIntializedException$.class
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/WLimNotIntializedException.class
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> /Regression/regression/target/scala-2.11/classes/linearRegression/linearRegression.class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /Regression/regression/target/scala-2.11/classes/linearRegressionTests/Greeting$class.class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /Regression/regression/target/scala-2.11/classes/linearRegressionTests/Greeting.class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello$.class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello$delayedInit$body.class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello.class
+binary dependencies:
+11 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> /root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> /root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> /Regression/regression/src/main/scala/linearRegression/linearRegression.scala
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/src/main/scala/linearRegression/linearRegression.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+1 items
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> /Regression/regression/src/main/scala/linearRegression/linearRegression.scala
+inheritance external dependencies:
+0 items
+class names:
+11 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> linearRegression.CrossValidation
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linearRegression.OrdinaryLeastSquares
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linearRegression.OrdinaryLeastSquares$$anonfun$columnOnes$1
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linearRegression.WLimNotIntializedException
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linearRegression.WLimNotIntializedException$
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> linearRegression.linearRegression
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests.Greeting
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests.Greeting$class
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests.Hello
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests.Hello$
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests.Hello$delayedInit$body
+used names:
+166 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> <init>
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> AnyRef
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> CrossValidation
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> DenseMatrix
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> Double
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> Int
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> LRModel
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> Manifest
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> Object
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> Predef
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> breeze
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> linalg
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> linearRegression
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> scala
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> $conforms
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> &&
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> *
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> +
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ::
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> <:<
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> <init>
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> <repeated>
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ==
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> A
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> AbstractFunction2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Any
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> AnyRef
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Axis
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> B
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Boolean
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> CanMapValues
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> CanSlice2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> CanTranspose
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ClassTag
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> DenseMatrix
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> DenseVector
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Double
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> DoubleZero
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Exception
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Function1
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Impl
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Impl2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> InPlaceImpl2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> IndexOutOfBoundsException
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Int
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Integer
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Integer2int
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Iterator
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> M
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Matrix
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> None
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Nothing
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Object
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> OpMulMatrix
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> OpSet
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> OrdinaryLeastSquares
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Predef
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Product
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> R
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Result
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ScalaRunTime
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Semiring
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Serializable
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Slice1
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Slice2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Some
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> String
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> T
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> T0
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> T1
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> T2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> TT
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> That
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Throwable
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Tuple2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Unit
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> V
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> V2
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> VR
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> WLimNotIntializedException
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> Zero
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> _1
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> _hashCode
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> apply
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> asDenseMatrix
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> asInstanceOf
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> breeze
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> canMapValues
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> canSliceCol
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> canTranspose
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> cause
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> columnNum
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> columnOnes
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> copyOLSData
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> delete
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> dm_dm_UpdateOp_Double_OpSet
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> dv_dv_UpdateOp_Double_OpSet
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> eq
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> horzcat
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> implOpMulMatrix_DMD_DMD_eq_DMD
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> int2Integer
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> isInstanceOf
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> java
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> lang
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> leftVector
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> length
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> lengthPV
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linalg
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> linearRegression
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> map
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> materializeClassTag
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> math
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> message
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> olsData
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> olsDataNotPredictColumn
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ones
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> pInverse
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> package
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> pinv
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> pinvFromSVD_Double
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> predictColumn
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> predictColumn_=
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> predictData
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> predictVector
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> predictedData
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> prepPredictData
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> returnVector
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> rightVector
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> runtime
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> scala
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> semiringD
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> slice
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> storage
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> t
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> toString
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> together
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> typedProductIterator
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> vertcat
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> wLimMatrix
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> wLimMatrix_=
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> zeros
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> ||
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> AnyRef
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> DenseMatrix
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> DenseVector
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> Double
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> Int
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> Unit
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> breeze
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> linalg
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> linearRegression
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> scala
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> <init>
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Any
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> AnyRef
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> App
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Greeting
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Hello
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Object
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Predef
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> String
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> Unit
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> greeting
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> linearRegressionTests
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> println
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> scala
+product stamps:
+11 items
+/Regression/regression/target/scala-2.11/classes/linearRegression/CrossValidation.class -> lastModified(1489611135000)
+/Regression/regression/target/scala-2.11/classes/linearRegression/OrdinaryLeastSquares$$anonfun$columnOnes$1.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegression/OrdinaryLeastSquares.class -> lastModified(1489611135000)
+/Regression/regression/target/scala-2.11/classes/linearRegression/WLimNotIntializedException$.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegression/WLimNotIntializedException.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegression/linearRegression.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegressionTests/Greeting$class.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegressionTests/Greeting.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello$.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello$delayedInit$body.class -> lastModified(1489611136000)
+/Regression/regression/target/scala-2.11/classes/linearRegressionTests/Hello.class -> lastModified(1489611136000)
+source stamps:
+4 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> hash(055e7ca6a96c17eeaab7a16359a5f8cb60392cf0)
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> hash(fdce412aef5c27bf5c6843c2dc6262879d2e3849)
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> hash(58dbc2a315d00eb432f2a04c026381e883e8dfbb)
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> hash(5dc204c2a5a51d2c59fa13babcd38b551cde513a)
+binary stamps:
+3 items
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar -> lastModified(1452974058000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1477404965000)
+class names:
+3 items
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.App
+/root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar -> breeze.linalg.DenseVector
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+4 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwsmdGrwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwjhZf8XQABm5vdGlmeXNxAH4ADE7l+K10AAR3YWl0c3EAfgAMZZES4HQADSRhc0luc3RhbmNlT2ZzcQB+AAycFE3zdAAGZXF1YWxzc3EAfgAMgJAJAnQADGFzSW5zdGFuY2VPZnNxAH4ADMhRtkh0AAxzeW5jaHJvbml6ZWRzcQB+AAz7u1JIdAANJGlzSW5zdGFuY2VPZnNxAH4ADMZ/g3V0AAlub3RpZnlBbGxzcQB+AAy9pBWGdAAMaXNJbnN0YW5jZU9mc3EAfgAM+XztVHQABjxpbml0PnNxAH4ADL/pZ3N0AAI9PXNxAH4ADK9QUYp0AAVjbG9uZXNxAH4ADJ6pkwZ0AAh0b1N0cmluZ3NxAH4ADGVRRkF0AAIhPXNxAH4ADEAkbQV0AAhnZXRDbGFzc3NxAH4ADJhyDl90AAJuZXNxAH4ADPVHUpJ0AA9Dcm9zc1ZhbGlkYXRpb25zcQB+AAzBP9dUdAACZXFzcQB+AAyG/Q3wdAACIyNzcQB+AAzrqi4IdAAIZmluYWxpemVzcQB+AAyV6cYZdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAgbGluZWFyUmVncmVzc2lvbi5Dcm9zc1ZhbGlkYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcmdpVdvjcpBrAgAGWwALYW5ub3RhdGlvbnNxAH4ARkwAAmlkcQB+AA1MAApsb3dlckJvdW5kdAAQTHhzYnRpL2FwaS9UeXBlO1sADnR5cGVQYXJhbWV0ZXJzcQB+AENMAAp1cHBlckJvdW5kcQB+AFRMAAh2YXJpYW5jZXQAFEx4c2J0aS9hcGkvVmFyaWFuY2U7eHB1cQB+AEwAAAAAdAAobGluZWFyUmVncmVzc2lvbi5Dcm9zc1ZhbGlkYXRpb24uTFJNb2RlbHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdOb3RoaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBbc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBodXEAfgBRAAAAAHNxAH4AWXQAEGxpbmVhclJlZ3Jlc3Npb25zcQB+AF9zcQB+AGJ1cQB+AGUAAAACc3EAfgBndAAQbGluZWFyUmVncmVzc2lvbnEAfgBsfnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACUludmFyaWFudH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4AdnQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgBbc3EAfgB+c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXHNxAH4AfnVxAH4APAAAAABzcQB+AH51cQB+ADwAAAAAc3EAfgB+dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AFl0AAZPYmplY3RzcQB+AF9zcQB+AGJ1cQB+AGUAAAADc3EAfgBndAAEamF2YXNxAH4AZ3QABGxhbmdxAH4AbHNxAH4AWXQAA0FueXNxAH4AX3NxAH4AYnVxAH4AZQAAAAJzcQB+AGdxAH4AanEAfgBsdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQbGluZWFyUmVncmVzc2lvbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtO+ASR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAwL1JlZ3Jlc3Npb24vcmVncmVzc2lvbi90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUBV58pqlsF+6qt6FjWaX4y2A5LPA=
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwiaHEzAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAzc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3hHqunQABm5vdGlmeXNxAH4ADESDnIV0AA9wcmludFN0YWNrVHJhY2VzcQB+AAz4yhGJdAATZ2V0TG9jYWxpemVkTWVzc2FnZXNxAH4ADK4IWcl0AAR3YWl0c3EAfgAMJoPQcnQADmNvcHkkZGVmYXVsdCQyc3EAfgAMiGBjbXQADSRhc0luc3RhbmNlT2ZzcQB+AAwXdarLdAAQc2V0UHJlZGljdENvbHVtbnNxAH4ADIVYWzZ0AA1wcmVkaWN0Q29sdW1uc3EAfgAMYWuph3QADHByb2R1Y3RBcml0eXNxAH4ADI70tCd0AAZlcXVhbHNzcQB+AAyAD90pdAAQZmlsbEluU3RhY2tUcmFjZXNxAH4ADE4NgLx0AAlpbml0Q2F1c2VzcQB+AAwfI8QrdAAMYXNJbnN0YW5jZU9mc3EAfgAME8KkHnQADHN5bmNocm9uaXplZHNxAH4ADOsLQIp0AA0kaXNJbnN0YW5jZU9mc3EAfgAMify14nQACGdldENhdXNlc3EAfgAMJV9PBXQACGNhbkVxdWFsc3EAfgAMctMvcXQAB29sc0RhdGFzcQB+AAx4S2+BdAANcHJvZHVjdFByZWZpeHNxAH4ADK9LpQB0AAlub3RpZnlBbGxzcQB+AAyg+IY6dAAMaXNJbnN0YW5jZU9mc3EAfgAMLigJ23QADWdldFN0YWNrVHJhY2VzcQB+AAziXEZHdAAUZ2V0U3RhY2tUcmFjZUVsZW1lbnRzcQB+AAyBaQ/mdAAEd2xpbXNxAH4ADCzIueF0AAY8aW5pdD5zcQB+AAy1j5ildAAKZ2V0TWVzc2FnZXNxAH4ADE/UWm10AA1zZXRTdGFja1RyYWNlc3EAfgAMzvU0LHQADWdldFN1cHByZXNzZWRzcQB+AAyRrse+dAACPT1zcQB+AAxEjwuodAASZ2V0U3RhY2tUcmFjZURlcHRoc3EAfgAMrcnHQnQABWNsb25lc3EAfgAMH9NUcXQAGldMaW1Ob3RJbnRpYWxpemVkRXhjZXB0aW9uc3EAfgAMe9Lw0HQADWFkZFN1cHByZXNzZWRzcQB+AAzrtOZSdAAFY2F1c2VzcQB+AAx7WL+8dAAGJGluaXQkc3EAfgAMbNlRfHQAFE9yZGluYXJ5TGVhc3RTcXVhcmVzc3EAfgAMMQ8lHnQABGNvcHlzcQB+AAwtaTIrdAAHbWVzc2FnZXNxAH4ADDjvict0AAh0b1N0cmluZ3NxAH4ADHJH0dN0AAIhPXNxAH4ADK+l+QF0AAdwcmVkaWN0c3EAfgAMDZRmL3QACGdldENsYXNzc3EAfgAMkXFbhnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMLNQTaHQAAm5lc3EAfgAMD5nuuXQAAmVxc3EAfgAMWPVfdHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADD11eF50AAp3TGltTWF0cml4c3EAfgAM8dKf3HQAAiMjc3EAfgAMzRWjcXQACGZpbmFsaXplc3EAfgAMlBFuyXQADnByb2R1Y3RFbGVtZW50c3EAfgAMOoa/63QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AfXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAJWxpbmVhclJlZ3Jlc3Npb24uT3JkaW5hcnlMZWFzdFNxdWFyZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3h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
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwx9JM1QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwNlmhYXQABm5vdGlmeXNxAH4ADN4c7Wp0AAR3YWl0c3EAfgAMnfz7BnQADSRhc0luc3RhbmNlT2ZzcQB+AAx/sAJydAAQc2V0UHJlZGljdENvbHVtbnNxAH4ADJuQ55R0AAZlcXVhbHNzcQB+AAzrJ7cldAAMYXNJbnN0YW5jZU9mc3EAfgAMEtqODXQADHN5bmNocm9uaXplZHNxAH4ADPKJ+aF0AA0kaXNJbnN0YW5jZU9mc3EAfgAM2kTgV3QACW5vdGlmeUFsbHNxAH4ADJprVs50AAxpc0luc3RhbmNlT2ZzcQB+AAyG6Sa1dAAEd2xpbXNxAH4ADBcgn+B0AAI9PXNxAH4ADJHX9Sl0AAVjbG9uZXNxAH4ADOhHFF90ABBsaW5lYXJSZWdyZXNzaW9uc3EAfgAMHul/OHQACHRvU3RyaW5nc3EAfgAMfOpe33QAAiE9c3EAfgAM7wTRg3QAB3ByZWRpY3RzcQB+AAz4RJ40dAAIZ2V0Q2xhc3NzcQB+AAyJThqndAACbmVzcQB+AAzJUflMdAACZXFzcQB+AAx0lskqdAACIyNzcQB+AAy95PUtdAAIZmluYWxpemVzcQB+AAxOkAG9dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHABdAAhbGluZWFyUmVncmVzc2lvbi5saW5lYXJSZWdyZXNzaW9udXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBic3EAfgBddXEAfgBAAAAAAHNxAH4AXXVxAH4AQAAAAABzcQB+AF11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHtzcQB+AG50AANBbnlzcQB+AHJzcQB+AHV1cQB+AHgAAAACc3EAfgB6dAAFc2NhbGFxAH4AgXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEGxpbmVhclJlZ3Jlc3Npb25zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVrTvgEkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFjbwqMV0A60MvKgTAJjgeiD6N+7
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwoYOhpAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwyfOKMHQABm5vdGlmeXNxAH4ADDicLod0AAR3YWl0c3EAfgAMAW5ZlXQADSRhc0luc3RhbmNlT2ZzcQB+AAxbSdiRdAAGZXF1YWxzc3EAfgAMsrizbXQACEdyZWV0aW5nc3EAfgAMqaKQlXQADGFzSW5zdGFuY2VPZnNxAH4ADMOZdDp0AA5leGVjdXRpb25TdGFydHNxAH4ADI+CPsd0AAxzeW5jaHJvbml6ZWRzcQB+AAwGhIUldAANJGlzSW5zdGFuY2VPZnNxAH4ADAlkUox0AARtYWluc3EAfgAMjLrNfnQACW5vdGlmeUFsbHNxAH4ADGwOtxB0AAxpc0luc3RhbmNlT2ZzcQB+AAyKmFvldAACPT1zcQB+AAwsPMKYdAAFY2xvbmVzcQB+AAzDaYkcdAAFSGVsbG9zcQB+AAyb/xjOdAAGJGluaXQkc3EAfgAM4zd0LHQACGdyZWV0aW5nc3EAfgAMlnjwsnQACHRvU3RyaW5nc3EAfgAM2okg9HQABGFyZ3NzcQB+AAwXAw7PdAACIT1zcQB+AAyl8R1EdAAIZ2V0Q2xhc3NzcQB+AAyKJ6AHdAACbmVzcQB+AAy89YtKdAACZXFzcQB+AAx43/q4dAALZGVsYXllZEluaXRzcQB+AAwWhDFydAACIyNzcQB+AAxVuNxXdAAIZmluYWxpemVzcQB+AAw8JMWKdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAbbGluZWFyUmVncmVzc2lvblRlc3RzLkhlbGxvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBnc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AbHNxAH4AZ3VxAH4ASAAAAABzcQB+AGd1cQB+AEgAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AE5xAH4AV3VxAH4AWAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHZ4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Aa3QAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBrc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQc3EAfgBaAHEAfgAhdXEAfgBdAAAAAHNxAH4Ag3QABFVuaXRxAH4AiXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHZ4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGB0AAVQbGFpbnEAfgAzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCEWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBrc3EAfgCDdAAFQXJyYXlxAH4AiXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCDdAAGU3RyaW5nc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3QABGphdmFzcQB+AI90AARsYW5ncQB+AJRzcQB+AGd1cQB+AKsAAAAFc3EAfgCDdAADQXBwcQB+AIlzcQB+AIN0AAtEZWxheWVkSW5pdHEAfgCJc3EAfgCDdAAIR3JlZXRpbmdzcQB+AIdzcQB+AIp1cQB+AI0AAAACc3EAfgCPdAAVbGluZWFyUmVncmVzc2lvblRlc3RzcQB+AJRzcQB+AIN0AAZPYmplY3RxAH4Ar3NxAH4Ag3QAA0FueXEAfgCJc3EAfgBKcQB+AFd1cQB+AFgAAAAAc3EAfgBaAXQAHmxpbmVhclJlZ3Jlc3Npb25UZXN0cy5HcmVldGluZ3VxAH4AXQAAAAB+cQB+AF90AAVUcmFpdHVxAH4AYwAAAABzcQB+AGdxAH4AbXNxAH4AZ3NxAH4Ab3NxAH4AZ3VxAH4ASAAAAABzcQB+AGd1cQB+AEgAAAAAc3EAfgBndXEAfgCrAAAAAnNxAH4Ag3EAfgDEc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3EAfgCzc3EAfgCPcQB+ALVxAH4AlHNxAH4Ag3EAfgDGc3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3EAfgCScQB+AJR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABVsaW5lYXJSZWdyZXNzaW9uVGVzdHNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVrTvgEkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFF3CBMKlpR0sWfoTurzTi1Uc3lE6
+external apis:
+0 items
+source infos:
+4 items
+/Regression/regression/src/main/scala/linearRegression/CrossValidation.scala -> 
+AAAAAAAAAAA=
+/Regression/regression/src/main/scala/linearRegression/OrdinaryLeastSquares.scala -> 
+AAAAAAAAAAA=
+/Regression/regression/src/main/scala/linearRegression/linearRegression.scala -> 
+AAAAAAAAAAA=
+/Regression/regression/src/main/scala/linearRegressionTests/Hello.scala -> 
+AAAAAAAAAAA=
+compilations:
+21 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWfgS7lp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWjkYcSd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk3ehRR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk3iZ4t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk3o83p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4CyD91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4Gd011cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4G0/h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4HU7R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4Hni11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWk4MVj11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpWuEbR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpXq/Al1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWpXrhLV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqZ8L3V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqZ+7VN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqaAxDB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqaHpEN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqaJR7F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWqaJUf51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtO+ASR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9SZWdyZXNzaW9uL3JlZ3Jlc3Npb24vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

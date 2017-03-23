@@ -1,0 +1,19 @@
+import breeze.linalg._
+exit
+scala
+scalaHome
+exit
+plugins
+console
+test
+console
+ls
+exit
+console
+exit
+compile
+console
+test
+:q
+exit
+console

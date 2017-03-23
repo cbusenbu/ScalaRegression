@@ -1,0 +1,41 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Regression/regression/src/test/scala/example/QRDecompTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Regression/regression/src/test/scala/example/QRDecompTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Regression/regression/src/test/scala/example/QRDecompTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Regression/regression/src/test/scala/example/QRDecompTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Regression/regression/src/test/scala/example/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7d483caf, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Regression/regression/src/test/scala/example/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Regression/regression/src/test/scala/example/QRDecompTest.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Regression/regression/src/test/scala/example/QRDecompTest.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Regression/regression/src/test/scala/example/QRDecompTest.scala:6: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass QRDecompTest extends FunSuite {[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/Regression/regression/src/test/scala/example/QRDecompTest.scala:7: not found: value test[0m
+[0m[[31merror[0m] [0m  test("test works"){[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mfour errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

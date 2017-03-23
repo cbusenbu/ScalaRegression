@@ -1,0 +1,6 @@
+console
+exit
+console
+sbt compile
+compile
+exit
