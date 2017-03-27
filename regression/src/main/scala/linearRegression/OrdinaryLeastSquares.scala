@@ -1,10 +1,15 @@
 package linearRegression
 import breeze.linalg._
+//@todo change OLS to accept trainingData, and predict to accept testingData instead of just a full matrix
+//@todo change predict to accept DenseMatrix instead of DenseVector
+//@todo currently broken, need to redo pieces
+
+
 
 class OrdinaryLeastSquares(val olsData:DenseMatrix[Double],var predictColumn:Int) extends linearRegression {
   var wLimMatrix:DenseMatrix[Double] = DenseMatrix.zeros[Double](1,1)
 
-  def setPredictColumn(columnNum:Int) ={
+  def setPredictColumn(columnNum:Int):Unit ={
     this.predictColumn = columnNum
   }
 
@@ -34,7 +39,10 @@ class OrdinaryLeastSquares(val olsData:DenseMatrix[Double],var predictColumn:Int
     wLimMatrix = pInverse*predictVector.asDenseMatrix.t
     wLimMatrix
   }
-
+  def predict(testData:DenseMatrix[Double]):DenseMatrix[Double] ={
+    return testData
+  }
+  /*
   def predict(predictData:DenseVector[Double]):DenseMatrix[Double] = {
     if (wLimMatrix == DenseMatrix.zeros[Double](1,1)){
       throw new WLimNotIntializedException("wLim Not Intialized, recommend running OLSObject.wlim")
@@ -42,6 +50,7 @@ class OrdinaryLeastSquares(val olsData:DenseMatrix[Double],var predictColumn:Int
     val predictedData:DenseVector[Double] = prepPredictData(predictData)
     predictedData.asDenseMatrix*wLimMatrix
   }
+  */
 }
 
 case class WLimNotIntializedException(message: String = "", cause: Throwable = null)

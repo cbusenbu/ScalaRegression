@@ -6,7 +6,7 @@ import scala.concurrent._
 class CrossValidation {
 
 
-
+/*
   def validate[LRModel <: linearRegression: Manifest](data:DenseMatrix[Double],columnNum:Int):LRModel ={
     var LRModels = List[Future]()
 
@@ -30,6 +30,6 @@ class CrossValidation {
 
     }
   }
-
+*/
 
 }
