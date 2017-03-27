@@ -1,5 +1,0 @@
-[0m[[0minfo[0m] [0m[32mLinearRegTest:[0m[0m
-[0m[[0minfo[0m] [0m[32m- predict without w_lim initialized[0m[0m
-[0m[[0minfo[0m] [0m[32m- OLS calc w_lim[0m[0m
-[0m[[0minfo[0m] [0m[32m- OLS change column[0m[0m
-[0m[[0minfo[0m] [0m[32m- predict datapoint[0m[0m
