@@ -11,6 +11,7 @@ class OrdinaryLeastSquares(val olsData:DenseMatrix[Double],var predictColumn:Int
 
   def setPredictColumn(columnNum:Int):Unit ={
     this.predictColumn = columnNum
+    wLimMatrix = DenseMatrix.zeros[Double](1,1)
   }
 
   private def predictVector: DenseVector[Double] = {
@@ -35,12 +36,12 @@ class OrdinaryLeastSquares(val olsData:DenseMatrix[Double],var predictColumn:Int
     DenseVector.vertcat(DenseVector.ones[Double](1),returnVector)
   }
 
-  def wlim:DenseMatrix[Double] = {
+  def wlim:DenseVector[Double] = {
     wLimMatrix = pInverse*predictVector.asDenseMatrix.t
-    wLimMatrix
+    wLimMatrix.toDenseVector
   }
-  def predict(testData:DenseMatrix[Double]):DenseMatrix[Double] ={
-    return testData
+  def predict(testData:DenseMatrix[Double]):DenseVector[Double] ={
+    return testData.toDenseVector
   }
   /*
   def predict(predictData:DenseVector[Double]):DenseMatrix[Double] = {
