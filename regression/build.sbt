@@ -9,8 +9,7 @@ lazy val root = (project in file(".")).
       libraryDependencies += scalaTest % Test,
       libraryDependencies += scalactic,
       libraryDependencies ++= Seq(breeze,breezeNatives,breezeViz),
-      //libraryDependencies += breezeNatives,
-      //libraryDependencies += breezeViz,
+
 
       resolvers ++= Seq(breezeSnapshotResolver,breezeReleasesResolver)
   )
